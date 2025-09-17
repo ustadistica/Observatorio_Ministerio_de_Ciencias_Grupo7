@@ -9,7 +9,7 @@ Ya se tiene ID por investigador en la base, por lo cual no se crea uno.
 
 ---
 
-### Id de la convocatoria 
+### ID de la convocatoria 
 
 Se selciona la columna de ID_CONVOCATORIA en la base de investigadores consolidados hecha anteriormente por grupo.
 Ya se tiene ID por convocatoria en la base, por lo cual no se crea uno.
