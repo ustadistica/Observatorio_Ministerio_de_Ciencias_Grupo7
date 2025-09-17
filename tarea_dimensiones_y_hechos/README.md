@@ -21,7 +21,9 @@ Ya se tiene ID por convocatoria en la base, por lo cual no se crea uno.
 Esta base contiene la variables:
 
 -`ID_CONVOCATORIA` (ID de la convocatoria)  
+
 -`NME_CONVOCATORIA` (Nombre de la convocatoria)
+
 -`ANO_CONVO`  (Año de realización de la convocatoria)
 
 
@@ -35,9 +37,13 @@ Ya se tiene el codigo del Dane por municipio en la base, por lo cual no se crea 
 Esta base contiene la variables:
 
 -`NME_PAIS_NAC_PR` (País de nacimiento del investigador)  
+
 -`NME_REGION_NAC_PR` (Región de nacimiento del investigador)
+
 -`NME_DEPARTAMENTO_NAC_PR`  (Departamento de nacimiento del investigador)
+
 -`NME_MUNICIPIO_NAC_PR` (Municipio de nacimiento del investigador)  
+
 -`COD_DANE_NAC_PR` (Código de homologación DANE para el municipio de nacimiento)
 
 
