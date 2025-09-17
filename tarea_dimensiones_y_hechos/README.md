@@ -1,4 +1,4 @@
-# Dimnesiones 
+# Dimensiones 
 
 
 ## Dimensiones hechas por @camiloacr1322:
@@ -20,7 +20,7 @@ Ya se tiene el codigo del Dane por municipio en la base, por lo cual no se crea 
 
 ---
 
-### 2. Dimensión **Universidad**
+### Dimensión **Universidad**
 - Se crea a partir de la columna `INST_FILIA`.  
 - Se creó un identificador único para cada universidad, se eliminaron de nulos y duplicados.
 
@@ -28,7 +28,7 @@ Ya se tiene el codigo del Dane por municipio en la base, por lo cual no se crea 
 
 ---
 
-### 3. Dimensión **Nivel de Formación**
+### Dimensión **Nivel de Formación**
 - Columnas utilizadas:
   - `ID_NIV_FORMACION_PR` (id del nivel).  
   - `NME_NIV_FORM_PR` (nombre del nivel).  
@@ -39,7 +39,7 @@ Ya se tiene el codigo del Dane por municipio en la base, por lo cual no se crea 
 
 ---
 
-### 4. Dimensión **Residencia**
+### Dimensión **Residencia**
 - Columnas utilizadas:
   - `COD_DANE_RES_PR` (código DANE).  
   - `NME_PAIS_RES_PR` (país).  
