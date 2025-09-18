@@ -11,6 +11,8 @@ Esta base contiene la variable:
 
  - `ID_PERSONA_PR ` (ID del investigador).
 
+   Filas: 26662 , Columnas: 1
+
 ---
 
 ### ID de la convocatoria 
@@ -26,6 +28,8 @@ Esta base contiene la variables:
 
  - `ANO_CONVO`  (Año de realización de la convocatoria)
 
+
+  Filas: 3 , Columnas: 3
 
 ---
 
@@ -45,6 +49,9 @@ Esta base contiene la variables:
  - `NME_MUNICIPIO_NAC_PR` (Municipio de nacimiento del investigador)  
 
  - `COD_DANE_NAC_PR` (Código de homologación DANE para el municipio de nacimiento)
+
+
+  Filas: 875 , Columnas: 5
 
 
 ---
