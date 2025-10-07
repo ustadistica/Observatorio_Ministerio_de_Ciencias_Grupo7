@@ -125,7 +125,45 @@ Los investigadores que tienen posdoctorado se asocian con los investigadores sen
 El investigador junior está asociado con pregrado, magíster, especialidad médica y especialización.
 Las demás no tienen asociación
 
+-----------
+
+## 4) Análisis de Correspondencia Múltiple (MCA)
 
 
+Con el fin de examinar de manera conjunta la relación entre varias variables categóricas, se realizó un Análisis de Correspondencia Múltiple (ACM). Esta técnica permite identificar estructuras latentes o asociaciones entre categorías de distintas variables cualitativas, representando la información en un espacio reducido de dimensiones que facilita su interpretación visual y conceptual.
+
+En este caso, el análisis se efectuó considerando las siguientes variables:
+
+ID_VICTIMA_CONFLICTO: identifica si el investigador o sujeto pertenece a población víctima del conflicto.
+
+TXT_GRUPO_ETNICO: describe el grupo étnico de pertenencia.
+
+TXT_POBLACION_DISCA: indica si la persona se reconoce o no como parte de una población con discapacidad.
+
+Estas tres variables fueron incluidas por su naturaleza cualitativa y su relevancia en el análisis de diversidad y condiciones diferenciales dentro de la población de investigadores. El objetivo principal fue explorar la posible asociación entre estas categorías y determinar si existen patrones o relaciones entre pertenecer a ciertos grupos étnicos, tener condición de discapacidad y haber sido víctima del conflicto.
+
+.
+<img width="614" height="621" alt="Captura de pantalla 2025-10-07 a la(s) 2 17 49 a m" src="https://github.com/user-attachments/assets/3a6ffdee-64e3-4396-9ca1-a39a25ca7e80" />
+.
+
+Se observa que oara cumplir con el 70% de varianza explicada se deben selecionar 9 dimensiones, ahora bien en la grafica despues de la priemra dimension hay una caida importante, esto nos indica que la primera dimension explica más varianza que las demas y despues de ella no se explica ni la mitad de la varianza en cualquier dimension.
+
+Por cosenos cuadrados en las primeras dos dimensiones no se explica bien, en la variable de grupo etnico, Blanco o mestizo, Indígena, Palenquero, Afrocolombiano/Afrodescendiente, Raizal y en poblacion discapacitada, Auditiva, Física, Múltiple, Psicosocial, Visual. Esto se tendra en cuenta en la interpretación de la grafica.
+
+En las contribuciones es similar que en los cosenos esto pasa por tener el 70% de la varianza en demasiadas dimensiones, por lo cual las observaciones se ven mejor contribuidas o con mejor coseno cuadrado en dimensiones altas como la 5 o 8. 
+
+Por ahora se explicaran las dos primeras dimensiones, en tal caso que se requiera otra información se interpretara con otras dimensiones.
+
+.
+<img width="1398" height="632" alt="Captura de pantalla 2025-10-07 a la(s) 2 32 07 a m" src="https://github.com/user-attachments/assets/5a5f0329-79e3-47f3-a4ea-bb1f7dd272a6" />
+.
+
+Los investigadores que no son victimas del conflicto se asocian con las que no pertenecen a un grupo etnico.
+
+Los investigadores que si son victimas del conflicto se asocian con que pertenecen a grupos etnicos como indigenas entre otros y tambien tienen discapacidad auditiva entre otros, pero como no se representan bien esas observaciones en esta dimensiones no se debe interprtar.
+
+Se observa que las persoans que no tienen disponible la observación en grupo etnico y discapacidad se asocian igualmente se asocian con las perosnas que no registran haber sido victima de conflicto.
+
+Las personas que pertenecen a un grupo etnico gitano y tienen discapacidad intelectual se asocian entre si
 
 
