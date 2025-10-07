@@ -199,6 +199,40 @@ Dado que este valor ausente impedía la ejecución del procedimiento factorial �
 
 Esta eliminación no comprometió la integridad del conjunto de datos, ya que la observación no aportaba información sustancial al análisis, y su exclusión permitió ejecutar correctamente el modelo y obtener resultados interpretables.
 
+.
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 1 02 42 p m" src="https://github.com/user-attachments/assets/c3ca8822-4102-4a4c-adfc-86e1491ffb1f" />
+.
+
+Se observa que dos componentes no es suficientes para el analisis completar el 70% de varianza explicada, este 70% se explica con las 10 dimensiones.
+
+Los cosenos cuadrados y las contribuciones nos dicen que se debe elegir más de dos dimensiones, ya que las que sí están representadas en el análisis son 7 de 19 observaciones por las primeras dos componentes. De igual forma, la siguiente gráfica será de las dos primeras dimensiones, en tal caso que se requiera, se hará un análisis más exhaustivo con las observaciones que se requieran.
 
 
+.
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 1 44 51 p m" src="https://github.com/user-attachments/assets/ba46a827-a02f-4d61-8a28-e5b992a40009" />
+.
 
+
+Los investigadores que nacieron en el exterior no se asocian con nada, pero los que nacieron en Colombia se asocian con los años tomados de la concocatoria, tambien con ciencias agricolas, ciencias natutares.
+
+
+Los investigadores con genero masculino se asocian con con ciencias agricolas, ciencias batutares y el año de la concocatoria 2017
+
+
+Los investigadores con genero femenino se asocian con las ciencias medicas y de la salud.
+
+En el primer cuadrante se ecuentra la variable edad por lo que los investigadores con más años de vida se encuentran el la gran area de ciencias sociales.
+
+## 6) Conclusión
+
+En el presente análisis multivariado no se emplearon métodos estrictamente cuantitativos, ya que la base de datos no cuenta con suficientes variables numéricas continuas que permitan la aplicación adecuada de técnicas como el Análisis de Componentes Principales (ACP) o el Análisis Factorial.
+
+En su lugar, se realizaron diferentes tipos de análisis de correspondencia:
+
+Análisis de Correspondencia Simple (ACS): Se desarrollaron tres ejercicios con pares de variables categóricas, los cuales permiten identificar asociaciones claras y visualmente interpretables en dos dimensiones. Estos análisis fueron apropiados, ya que las relaciones entre las categorías se explican adecuadamente en los dos primeros ejes.
+
+Análisis de Correspondencia Múltiple (ACM): Se aplicó con un conjunto mayor de variables cualitativas. Sin embargo, los resultados mostraron que no todas las variables quedan bien representadas en las dos primeras dimensiones, por lo que, si se desea realizar un estudio más profundo, sería necesario considerar un número mayor de dimensiones o aplicar un análisis más exhaustivo que permita capturar con mayor detalle la variabilidad de los datos.
+
+Análisis Factorial Mixto (FAMD): Este método, que combina variables cualitativas y cuantitativas, tampoco logra explicar adecuadamente la estructura de los datos en las dos primeras dimensiones. Aunque permite visualizar relaciones generales entre las categorías y las variables numéricas, se concluye que, para obtener resultados más precisos, es necesario realizar un análisis complementario más detallado, considerando una mayor cantidad de componentes o técnicas adicionales.
+
+En síntesis, el conjunto de análisis realizados permitió una exploración general de las asociaciones entre variables categóricas y mixtas, pero la limitada cantidad de variables numéricas y la complejidad de las relaciones hacen recomendable profundizar en estudios posteriores con técnicas más específicas o un mayor número de dimensiones.
