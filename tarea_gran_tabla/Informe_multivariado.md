@@ -32,7 +32,7 @@ Las otras dos variables, aunque están codificadas como números, son en realida
 
 Conclusión: No es posible aplicar un ACP en esta base de datos, ya que no existen suficientes variables numéricas continuas para extraer componentes principales.
 
-
+--------------------------------
 
 ## 2. Análisis Factorial (FA)
 
@@ -55,6 +55,8 @@ Las otras dos, aunque numéricas en apariencia, son en realidad ordinales categ�
 
 Conclusión: No es posible realizar un análisis factorial en esta base de datos, pues no se cumplen los requisitos básicos de contar con varias variables numéricas continuas correlacionadas.
 
+--------------------------
+
 
 ## 3. Análisis de Correspondencia Simple (CA)
 
@@ -76,10 +78,54 @@ El objetivo de este análisis es examinar cómo se relacionan los niveles acadé
 
 
 
+### a) Género y Gran Área del Conocimiento
+
+
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 1 00 56 a m" src="https://github.com/user-attachments/assets/1600c806-7cff-4f0b-bf1f-b582b2eebee5" />
+
+
+Se observa que en las dos primeras componentes se explica el 99.6% de la varianza, esto nos indica que se deberían escoger dos componentes. Ahora, en las contribuciones y cosenos cuadrados, nos indica algo similar, por lo que se escogen dos componentes.
+
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 1 07 35 a m" src="https://github.com/user-attachments/assets/25289893-a9d5-4c47-b6e9-f332517df861" />
+
+La gráfica muestra que las personas que tienen género masculino están asociadas con la gran área de conocimiento, ciencias agrícolas, ciencias naturales y humanidades. 
+Por otro lado, las personas del género femenino están asociadas con las ciencias médicas y de la salud. 
+Las personas con género intersexual no están asociadas con nadie, al igual que no disponible.
+Ingeniería y tecnología, ciencias sociales y no registra, no están asociadas con ningún tipo de género de los investigadores.
+
+
+### b) Género y Universidad del Investigador
+
+
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 12 57 23 a m" src="https://github.com/user-attachments/assets/f7cc6560-7d0e-4b59-a518-72f437f0d071" />
+
+
+Se observa que la varianza explicada por las dos primeras componentes es de 84.9% por lo que con dos dimensiones se puede explicar estas dos variables. Aunque sse observa en los cosenos y contribuciones que la dimension tres aporta, de igual manera solo se trabajara con las dos primeras dimensiones.
+
+
+<img width="1440" height="900" alt="Captura de pantalla 2025-10-07 a la(s) 1 25 50 a m" src="https://github.com/user-attachments/assets/ac785bc8-82d4-41d4-a6e3-19bfc309a301" />
+
+
+En la gráfica se observa que la universidad estadual do norte fluminense Darcy y Ribero y investigador independiente no se asocian con ningún género, las demás afiliaciones de universidades de los investigadores se asocian a masculino y femenino.
+Además no disponible e intersexual, no se asocia a ninguna universidad.
 
 
 
-ç
+### c) Nivel de Formación y Clasificación del Investigador
+
+<img width="717" height="627" alt="Captura de pantalla 2025-10-07 a la(s) 1 37 08 a m" src="https://github.com/user-attachments/assets/81ce5ea4-620a-4aed-ad07-cf7855a0e60d" />
+
+Se observa que la varianza explicada por las dos primeras componentes es de 98.8% por lo que con dos dimensiones se puede explicar estas dos variables. Los cosenos y contribuciones respaldan esta dicision.
+
+
+<img width="1394" height="632" alt="Captura de pantalla 2025-10-07 a la(s) 1 48 31 a m" src="https://github.com/user-attachments/assets/5daa9f84-c1b1-4ff4-bf52-6b8dc39e5b6a" />
+
+
+Los investigadores que tienen posdoctorado se asocian con los investigadores senior y emérito, esto teniendo sentido que entre más estudio poseas el investigador mayor su cargo como investigador.
+El investigador junior está asociado con pregrado, magíster, especialidad médica y especialización.
+Las demás no tienen asociación
+
+
 
 
 
