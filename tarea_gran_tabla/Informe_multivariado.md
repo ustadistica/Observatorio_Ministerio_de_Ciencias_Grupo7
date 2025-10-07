@@ -166,4 +166,39 @@ Se observa que las persoans que no tienen disponible la observación en grupo et
 
 Las personas que pertenecen a un grupo etnico gitano y tienen discapacidad intelectual se asocian entre si
 
+-----------------------
+
+## 5) Análisis Factorial de Datos Mixtos (FAMD)
+
+Introducción
+
+Con el propósito de analizar de manera conjunta variables categóricas y numéricas relacionadas con las características de los investigadores, se aplicó un Análisis Factorial de Datos Mixtos (FAMD).
+Esta técnica combina los principios del Análisis de Componentes Principales (ACP) —para variables cuantitativas— y del Análisis de Correspondencias Múltiple (ACM) —para variables cualitativas—, lo que permite representar ambas en un mismo espacio factorial de forma equilibrada.
+
+El FAMD facilita la identificación de patrones conjuntos, agrupamientos naturales y relaciones multidimensionales entre los individuos y las variables, proporcionando una visión global de la estructura de los datos.
+
+En este caso, el análisis se realizó considerando las siguientes variables:
+
+ANO_CONVO: año de la convocatoria del investigador.
+
+NME_GRAN_AREA_PR: gran área del conocimiento a la que pertenece el investigador principal.
+
+NME_GENERO_PR: género del investigador principal.
+
+ME_PAIS_NAC_PR: país de nacimiento del investigador.
+
+EDAD_ANOS_PR: edad en años del investigador.
+
+Estas variables combinan tanto información demográfica como académica, permitiendo explorar las relaciones entre la edad, el contexto geográfico y las características de participación científica.
+
+Depuración de los datos
+
+Previo al análisis, se revisó la base de datos con el fin de garantizar la consistencia y completitud de la información.
+Durante este proceso se identificó una fila con un valor faltante (NA) en la variable EDAD_ANOS_PR, la cual es fundamental para el cálculo del FAMD al representar una variable numérica.
+Dado que este valor ausente impedía la ejecución del procedimiento factorial —afectando el cálculo de las componentes principales—, se decidió eliminar dicha observación.
+
+Esta eliminación no comprometió la integridad del conjunto de datos, ya que la observación no aportaba información sustancial al análisis, y su exclusión permitió ejecutar correctamente el modelo y obtener resultados interpretables.
+
+
+
 
