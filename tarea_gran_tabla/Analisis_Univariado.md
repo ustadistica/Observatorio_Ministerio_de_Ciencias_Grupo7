@@ -27,9 +27,9 @@ Se analizaron tres variables numéricas principales:
 
 | Variable | Descripción | Tipo de análisis |
 |-----------|-------------|------------------|
-| `NRO_ORDEN_FORM_PR` | Nivel de formación alcanzado (orden jerárquico) | Dispersión y concentración |
-| `ORDEN_CLAS_PR` | Nivel de clasificación dentro del sistema MinCiencias | Distribución y variabilidad |
-| `EDAD_ANOS_PR` | Edad del investigador en años | Medidas de tendencia y dispersión |
+| NRO_ORDEN_FORM_PR | Nivel de formación alcanzado (orden jerárquico) | Dispersión y concentración |
+| ORDEN_CLAS_PR | Nivel de clasificación dentro del sistema MinCiencias | Distribución y variabilidad |
+| EDAD_ANOS_PR | Edad del investigador en años | Medidas de tendencia y dispersión |
 
 **Resumen estadístico:**
 
@@ -46,13 +46,16 @@ Se analizaron tres variables numéricas principales:
 **Visualizaciones:**
 
 - Distribución de `EDAD_ANOS_PR`  
-  ![Distribución de edad](370edb33-054a-4ade-be8f-4ead4d6de9ea.png)
+ <img width="565" height="394" alt="image" src="https://github.com/user-attachments/assets/66adee20-6c8a-43a7-8d25-b51fe22e02a3" />
+
 
 - Boxplot de `NRO_ORDEN_FORM_PR`  
-  ![Boxplot formación](87fba227-4252-4ce5-a73a-99ff9b42ed05.png)
+ <img width="412" height="316" alt="image" src="https://github.com/user-attachments/assets/a0b953e8-3614-412c-a8e1-bdb28e703f8f" />
+
 
 - Boxplot de `ORDEN_CLAS_PR`  
-  ![Boxplot clasificación](7081f19c-a5bb-411d-affe-9340079ae335.png)
+<img width="412" height="316" alt="image" src="https://github.com/user-attachments/assets/5127087e-c205-4ced-ac47-c826e080d0e7" />
+
 
 ---
 
@@ -76,7 +79,7 @@ A continuación se destacan los principales patrones encontrados.
 ---
 
 ###  Distribución por género
-![Distribución de género](b7c71ab2-a80b-492c-8ab8-995bdd89e772.png)
+<img width="635" height="456" alt="image" src="https://github.com/user-attachments/assets/92f2f21c-58d2-48b7-abfe-d5b12dbc533d" />
 
 Predomina el **género masculino (≈61%)**, seguido por el **femenino (≈39%)**.  
 Las categorías “intersexual” y “no disponible” tienen presencia mínima, lo cual sugiere una brecha de género persistente dentro del sistema de investigadores reconocidos.
@@ -84,7 +87,8 @@ Las categorías “intersexual” y “no disponible” tienen presencia mínima
 ---
 
 ###  Región de residencia
-![Región de residencia](f1a7c566-2b11-4d0a-9a32-d15f33397201.png)
+<img width="635" height="463" alt="image" src="https://github.com/user-attachments/assets/881d25f0-397f-4eef-a59a-dd51dd20401c" />
+
 
 La mayoría de investigadores residen en el **Distrito Capital** y el **Eje Cafetero**, seguidos de las regiones **Caribe, Centro Oriente y Pacífico**.  
 Esto evidencia una **concentración geográfica** del talento científico en los principales centros urbanos y académicos del país.
@@ -92,7 +96,8 @@ Esto evidencia una **concentración geográfica** del talento científico en los
 ---
 
 ###  Gran área del conocimiento
-![Gran área del conocimiento](adfac1df-2ad1-4341-8233-7761072f931a.png)
+<img width="635" height="541" alt="image" src="https://github.com/user-attachments/assets/7afad09d-975c-4622-9ba7-b62ef992de7d" />
+
 
 Las áreas con mayor número de investigadores son:
 - **Ciencias Sociales (≈30%)**
@@ -105,15 +110,17 @@ Esto demuestra una **diversificación disciplinar**, con predominio de las cienc
 ---
 
 ###  Nivel de formación
-![Nivel de formación](3db04336-0550-4a76-9ce1-491408067f05.png)
+<img width="635" height="513" alt="image" src="https://github.com/user-attachments/assets/aba638d9-f294-4f79-8d32-b38feb0451ea" />
+
 
 Los niveles formativos más frecuentes son **Doctorado** y **Maestría/Magíster**, seguidos por **Postdoctorado** y **Especialidad médica**.  
 Más del **85%** de los investigadores cuentan con formación de posgrado, lo que refleja un **alto nivel académico** en el sistema.
 
 ---
 
-###  Clasificación MinCiencias
-![Clasificación investigadores](a8eb30dc-f0d2-4687-9fd9-22007218c456.png)
+###  Clasificación
+<img width="635" height="498" alt="image" src="https://github.com/user-attachments/assets/e1fb543b-05d5-4bd4-a51a-2ba345acf652" />
+
 
 La mayor proporción corresponde a la categoría **Investigador Junior**, seguida de **Asociado** y **Senior**, con pocos **Eméritos**.  
 Esto muestra una estructura **piramidal**, con amplia base de investigadores en formación o consolidación y un grupo reducido de investigadores altamente experimentados.
@@ -198,7 +205,8 @@ La variable temporal corresponde al **año de convocatoria (`ANO_CONVO`)**, que 
 ---
 
 ###  Distribución por año de convocatoria
-![Distribución por año](02d69e64-999c-47ff-b993-953af119333f.png)
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/02188f8c-f425-4d7d-b3c4-58333b6fa588" />
+
 
 | Año | Número de investigadores |
 |------|---------------------------|
@@ -211,6 +219,7 @@ Se evidencia un crecimiento sostenido en el número de investigadores reconocido
 
 - De 2017 a 2019 hubo un incremento del **29%**,  
 - y de 2019 a 2021 otro aumento del **26%**.  
+
 
 
 
