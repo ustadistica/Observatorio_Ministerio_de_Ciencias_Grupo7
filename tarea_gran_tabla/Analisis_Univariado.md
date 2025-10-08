@@ -1,4 +1,4 @@
-# Análisis univariado de investigadores reconocidos por MinCiencias (2017–2021)
+# Análisis univariado 
 
 Este análisis univariado utiliza la base **“GRAN_TABLA (sin ID)”**, que recopila información de investigadores reconocidos por **MinCiencias** en tres convocatorias distintas.  
 El conjunto de datos proviene de un modelo estrella que consolida variables sociodemográficas, académicas y geográficas de más de **50.000 registros**.
@@ -219,6 +219,7 @@ Se evidencia un crecimiento sostenido en el número de investigadores reconocido
 
 - De 2017 a 2019 hubo un incremento del **29%**,  
 - y de 2019 a 2021 otro aumento del **26%**.  
+
 
 
 
