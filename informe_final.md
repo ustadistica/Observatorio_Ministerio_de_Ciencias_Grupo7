@@ -79,6 +79,10 @@ Carpeta: tarea_dimensiones_y_hechos
 
 Diseño: se construyeron nueve dimensiones (por ejemplo: Dim-Investigador, Dim-Convocatoria, Dim-Universidad, Dim-Área, Dim-nacimiento, Dim-Género, Dim-residencia, Dim-formación, Dim-clasificación) y una tabla de hechos que centraliza métricas (p. ej. edad, victima de conflicto, grupo etnico y población discapacitada, además de los ID de las dimensiones). Normalización y llaves primarias/foráneas definidas.
 
+Se adjunta el link de las dimensiones y la tabla de hechos:
+
+https://usantotomaseduco-my.sharepoint.com/:f:/g/personal/paulaguevarag_usantotomas_edu_co/Ep57IXtzL95LspDjMxohEgkBXapmReFSNoizh_dpRlDpzQ?e=oVtJVU
+
 
 #### 5) Construcción de la gran tabla y análisis exploratorio
 
